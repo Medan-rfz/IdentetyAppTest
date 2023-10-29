@@ -1,0 +1,52 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px 0 0 ;
+}
+
+.ContainerHori {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 0 0;
+}
+
+label {
+  flex: 1;
+  text-align: right;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.navigation-panel {
+  background-color: #333; /* Цвет фона */
+  display: flex; /* Размещение ссылок в одну линию */
+  justify-content: space-around; /* Равномерное распределение по горизонтали */
+  padding: 10px 0; /* Внутренний отступ сверху и снизу */
+}
+
+.nav-link {
+  color: #fff; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+  padding: 10px 20px; /* Внутренний отступ слева и справа */
+  border-radius: 5px; /* Закругляем углы */
+  transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.nav-link:hover {
+  background-color: #555; /* Цвет фона при наведении */
+}
