@@ -1,0 +1,3 @@
+﻿{
+  "dbConnectionString": "Host=localhost;Port=5432;Username=AdminUser;Password=12345;Database=IdentityApp"
+}
